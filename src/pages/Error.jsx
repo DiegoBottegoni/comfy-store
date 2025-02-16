@@ -23,8 +23,15 @@ const Error = () => {
     );
 
   return (
-    <main className="grid min-h-[100vh] place-items-center px-8 ">
-      <h4 className="text-center font-bold text-4xl">there was an error... </h4>
+    <main className="grid min-h-[100vh] place-items-center px-8">
+      <div className="text-center">
+        <h4 className="text-center font-bold text-4xl capitalize mb-8">
+          sorry.. there was an error
+        </h4>
+        <Link to="/" className="btn btn-secondary mt-8">
+          Go back home
+        </Link>
+      </div>
     </main>
   );
 };
