@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Header, Hero, Navbar } from "../components";
+import { Header, Navbar } from "../components";
 
 const HomeLayout = () => {
   return (
@@ -7,7 +7,6 @@ const HomeLayout = () => {
       <Header />
       <Navbar />
       <section className="align-element py-20">
-        <Hero />
         <Outlet />
       </section>
     </>
