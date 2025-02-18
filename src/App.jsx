@@ -43,7 +43,6 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  console.log("App component rendered");
   return (
     <>
       <RouterProvider router={router} />

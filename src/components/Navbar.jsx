@@ -14,7 +14,6 @@ const getThemeFromLocalStorage = () => {
 };
 
 const Navbar = () => {
-  console.log("Navbar component rendered");
   const [theme, setTheme] = useState(getThemeFromLocalStorage());
 
   const handleTheme = () => {
