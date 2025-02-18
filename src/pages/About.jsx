@@ -1,30 +1,25 @@
 const About = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
-      <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+    <>
+      <div className="flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center">
+        <h1 className="text-4xl font-bold leading-none tracking-tight sm:text-6xl ">
+          We love
+        </h1>
+        <div className="stats bg-primary shadow">
+          <div className="stat">
+            <div className="stat-title text-primary-content text-4xl font-bold tracking-widest">
+              comfy
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Link</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="bg-base-100 rounded-t-none p-2">
-                <li>
-                  <a>Link 1</a>
-                </li>
-                <li>
-                  <a>Link 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic veniam
+        odit, officiis eos mollitia alias, doloremque, aspernatur ratione
+        asperiores voluptas labore minus dolores reprehenderit corporis quos.
+        Assumenda molestias harum dignissimos?
+      </p>
+    </>
   );
 };
 export default About;

@@ -1,7 +1,12 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @plugin "daisyui" {
-  themes: dark --default;
+  themes: nord, dracula;
 }
 
-@plugin "@tailwindcss/typography";
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}

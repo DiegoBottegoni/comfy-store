@@ -1,3 +1,4 @@
+import { ToastContainer, toast } from "react-toastify";
 import {
   About,
   Cart,
@@ -42,7 +43,18 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  console.log("App component rendered");
+  return (
+    <>
+      <RouterProvider router={router} />
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        closeOnClick
+        theme="dark"
+      />
+    </>
+  );
 };
 
 export default App;
