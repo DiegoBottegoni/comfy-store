@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="bg-base-200 ">
+    <nav className="navbar bg-base-200 ">
       <div className="navbar align-element ">
         <div className="navbar-start">
           {/* Title */}
